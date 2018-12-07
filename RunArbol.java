@@ -1,3 +1,12 @@
+/*
+En esta clase probarimos crear un arbol binario con los datos que enviamos en un arreglos de enteros en la variable valores.
+
+Para esto recorreremos en arreglo de enteros hasta su tamaño con un for, en este iremos creando nuevos nodos y añadiendo 
+esos nodos a nuestro arbol binario, luego de que termine el ciclo usaremos los metodos de recorrido (Pre,In,Post)Orden 
+con recursividad y sin recursividad.
+
+
+*/
 public class RunArbol {
     public static void main(String[] args){
         Nodo n;
