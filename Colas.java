@@ -1,3 +1,15 @@
+/*
+Las Colas son como una Lista o una pila, pero en estas el primer dato en entrar es el primero en salir,
+ademas las colas son igual a una lista doble porque conocen que nodo esta delante del otro y quien esta detras.
+
+* El metodo push nos servira para introducir un nodo en la pila y lo convierte de inmediato en el primer valor de esta.
+* El metodo pop nos permite sacar el primer elemento de pila y al mismo tiempo nos va reduciendo el tamaño de la pila.
+* El metodo peek nos permite visializar cual es el primer valor de nuestra pila sin afectar el contenido de esta.
+* El metodo size lo utilizaremos para visializar el tamaño de la pila.
+
+Cuando vaciamos una pila su tamaño final sera 0 debido a que el metodo pop reduce la cantidad de nodos restantes en la pila
+a medida que toma una nodo.
+*/
 public class Colas {
     private Nodo head;
     private int cant = 0;
@@ -15,6 +27,7 @@ public class Colas {
             {
                 for (l = head; l.getRight()!= null; l=l.getRight());
                 l.setRightt(n);
+                l.setLeft(l);
             }
         }
         public Nodo pop() {
