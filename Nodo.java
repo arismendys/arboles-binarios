@@ -1,3 +1,10 @@
+/*
+ Esta clase nos permitira crear nuestros Nodos en las deferentes clases que necesitemos.
+ 
+ Para utilizar en otras clases recomiendo cambiar setData y getData a Object, la utilizaremos como int para trabajar
+ nuestro Arbol Binario.
+ 
+*/
 public class Nodo {
     private int data;
     private Nodo derecha;
