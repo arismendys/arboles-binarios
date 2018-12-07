@@ -1,3 +1,21 @@
+/*
+La clase arbol nos permitira crear nuestro arbol binario de nodos.
+
+El metodo add nos añadira el nodo en el lugar correspodiente partiendo del primer nodo que enviemos el cual se convertira
+en el nodo raiz o principal de nuestro arbol binario.
+El metodo raiz nos returna el nodo raiz de nuestro arbol binario.
+Los metodos size nos retornaran el tamaño de nuestro arbol.
+
+Metodos de recorrido de un arbol binario:
+
+* El metodo PreOrden=RID, Visita la Raiz, luego rama izquierda y luego la derecha
+* El metodo InOrden=IRD, Visita la rama izquierda, luego la raiz y luego la rama derecha
+* El metodo PostOrden=IDR, Visita la rama izquierda, luego la rama derecha y luego la raiz
+ 
+ Estos metodos los veremos con recursividad y sin recursividad, pero sin recursividad utilizaremos pilas y colas para hacerlos
+ mas interezantes.
+
+*/
 public class Arbol {
     private Nodo root;
     private int cant = 0;
